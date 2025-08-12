@@ -1,0 +1,38 @@
+# Enhanced Reverse Engineering Tools Requirements
+# Install with: pip install -r requirements_enhanced_re.txt
+
+# Core reverse engineering libraries
+capstone>=5.0.0          # Multi-architecture disassembly engine
+pefile>=2023.2.0         # PE file parsing and analysis
+pyelftools>=0.32         # ELF file parsing and analysis
+dnfile>=0.16.0           # .NET assembly analysis
+
+# Additional useful libraries for enhanced functionality
+yara-python>=4.3.0       # Pattern matching and signature detection
+lief>=0.13.0             # Advanced binary parsing and manipulation
+unicorn>=2.0.0           # CPU emulation for dynamic analysis
+keystone-engine>=0.9.0   # Assembly code generation
+ropper>=2.0.0            # ROP gadget finder
+angr>=9.0.0              # Binary analysis framework
+r2pipe>=1.6.0            # Radare2 integration
+
+# Optional: GUI and visualization libraries
+matplotlib>=3.5.0        # Plotting and visualization
+seaborn>=0.11.0          # Statistical data visualization
+plotly>=5.0.0            # Interactive plots
+
+# Optional: Network and security analysis
+requests>=2.28.0         # HTTP requests for online lookups
+virustotal-api>=1.1.0    # VirusTotal integration
+abuseipdb>=1.0.0         # AbuseIPDB integration
+
+# Optional: Machine learning for pattern detection
+scikit-learn>=1.1.0      # Machine learning algorithms
+numpy>=1.21.0            # Numerical computing
+pandas>=1.3.0            # Data manipulation and analysis
+
+# Development and testing
+pytest>=7.0.0            # Testing framework
+black>=22.0.0            # Code formatting
+flake8>=5.0.0            # Code linting
+mypy>=0.991              # Type checking 
